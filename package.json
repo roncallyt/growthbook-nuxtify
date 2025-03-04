@@ -30,7 +30,8 @@
   },
   "dependencies": {
     "@growthbook/growthbook": "^1.4.1",
-    "@nuxt/kit": "^3.15.4"
+    "@nuxt/kit": "^3.15.4",
+    "defu": "^6.1.4"
   },
   "devDependencies": {
     "@nuxt/devtools": "^2.1.3",
