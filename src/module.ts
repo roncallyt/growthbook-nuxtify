@@ -1,5 +1,6 @@
 import { addPlugin, createResolver, defineNuxtModule } from '@nuxt/kit'
 import { defu } from 'defu'
+import type { NuxtModule } from 'nuxt/schema'
 
 export interface ModuleOptions {
   /**
@@ -41,7 +42,7 @@ export interface ModuleOptions {
   enableDevMode: boolean
 }
 
-export default defineNuxtModule<ModuleOptions>({
+const module: NuxtModule<ModuleOptions> = defineNuxtModule<ModuleOptions>({
   meta: {
     name: 'growthbook',
     configKey: 'growthbook',
@@ -83,3 +84,5 @@ export default defineNuxtModule<ModuleOptions>({
     addPlugin(resolve('./runtime/plugins/growthbook'))
   },
 })
+
+export default module

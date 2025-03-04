@@ -1,6 +1,11 @@
 import { GrowthBook } from '@growthbook/growthbook'
+import { defineNuxtPlugin, useRuntimeConfig } from '#imports'
 
-export default defineNuxtPlugin({
+export interface PluginReturn {
+  growthbook: GrowthBook | null
+}
+
+const plugin = defineNuxtPlugin({
   name: 'growthbook',
   enforce: 'pre',
   setup: async (_) => {
@@ -35,3 +40,5 @@ export default defineNuxtPlugin({
     }
   },
 })
+
+export default plugin
