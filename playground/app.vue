@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const { $growthbook } = useNuxtApp()
 
-const enabled = computed(() => $growthbook.isOn("my-feature"))
+const enabled = computed(() => $growthbook.isOn('my-feature'))
 </script>
 
 <template>
