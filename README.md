@@ -1,4 +1,4 @@
-# Nuxt GrowthBook
+# GrowthBook Nuxtify
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -6,8 +6,8 @@
 [![Nuxt][nuxt-src]][nuxt-href]
 
 > [GrowthBook](https://www.growthbook.io/) module for [Nuxt.js](https://nuxt.com/)
-- [✨ &nbsp;Release Notes](https://github.com/roncallyt/nuxt-growthbook/releases)
-- [📖 &nbsp;Documentation](https://nuxt-growthbook.t7n.dev)
+- [✨ &nbsp;Release Notes](https://github.com/roncallyt/growthbook-nuxtify/releases)
+- [📖 &nbsp;Documentation](https://growthbook-nuxtify.t7n.dev)
 
 ## Features
 
@@ -18,17 +18,17 @@
 
 ## Quick Setup
 
-1. Add `nuxt-growthbook` dependency to your project
+1. Add `growthbook-nuxtify` dependency to your project
 
 ```bash
-npx nuxi module add nuxt-growthbook
+npx nuxi module add growthbook-nuxtify
 ```
 
-2. Add `nuxt-growthbook` to the `modules` section of `nuxt.config.ts`
+2. Add `growthbook-nuxtify` to the `modules` section of `nuxt.config.ts`
 
 ```js
 export default defineNuxtConfig({
-  modules: ['nuxt-growthbook'],
+  modules: ['growthbook-nuxtify'],
 })
 ```
 
@@ -64,14 +64,14 @@ export default defineNuxtConfig({
 
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-growthbook/latest.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-version-href]: https://npmjs.com/package/nuxt-growthbook
+[npm-version-src]: https://img.shields.io/npm/v/growthbook-nuxtify/latest.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-version-href]: https://npmjs.com/package/growthbook-nuxtify
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-growthbook.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-downloads-href]: https://npm.chart.dev/nuxt-growthbook
+[npm-downloads-src]: https://img.shields.io/npm/dm/growthbook-nuxtify.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-downloads-href]: https://npm.chart.dev/growthbook-nuxtify
 
-[license-src]: https://img.shields.io/npm/l/nuxt-growthbook.svg?style=flat&colorA=020420&colorB=00DC82
-[license-href]: https://npmjs.com/package/nuxt-growthbook
+[license-src]: https://img.shields.io/npm/l/growthbook-nuxtify.svg?style=flat&colorA=020420&colorB=00DC82
+[license-href]: https://npmjs.com/package/growthbook-nuxtify
 
 [nuxt-src]: https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js
 [nuxt-href]: https://nuxt.com

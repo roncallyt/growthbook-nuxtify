@@ -1,8 +1,11 @@
 {
-  "name": "nuxt-growthbook",
+  "name": "growthbook-nuxtify",
   "version": "1.0.0",
   "description": "GrowthBook module for Nuxt.js",
-  "repository": "roncallyt/nuxt-growthbook",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roncallyt/growthbook-nuxtify"
+  },
   "license": "MIT",
   "type": "module",
   "exports": {
